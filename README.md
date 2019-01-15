@@ -19,10 +19,13 @@
   
   console.log(test());
   ```
+1st result is "Aurelio De Rosa" - because the variable fullname has been redefined by the getFullname 
+which returns "Aurelio De Rosa" according to the console.log we're looking for the fullname within the
+2nd result is "John Doe" - because "John Doe" is stored in the variable fullname in the global scope.      
 
 2. What will you see in the console for the following example?
   ```
-  var a = 1; 
+  var a = 1;  
   function b() { 
       a = 10; 
       return; 
@@ -31,6 +34,8 @@
   b(); 
   console.log(a);    
   ```
+ result will be 1 - because 1 is stored in the variable a in the global scope 
+ 
 
 * Create an array called ```peopleList``` objects using *Object Literal* notation. 
 
